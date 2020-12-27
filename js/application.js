@@ -19,17 +19,11 @@ function stopMovement() {
 }
 
 function auto() {
-  /*if (game == null || typeof(game) === "undefined") {
-    return;
-  }
-  var item = document.getElementById('tile-container');*/
-  if (item.innerHTML == last) {
+  var item = document.getElementById('tile-container');
     if (++cnt > 1) {
       dir = 1 - dir;
       cnt = 0;
     }
-  }
-  last = item.innerHTML;
   if (0 === dir) {
     game.move(0);
     game.move(3);
@@ -40,17 +34,11 @@ function auto() {
 }
 
 function swing() {
-  /*if (game == null || typeof(game) === "undefined") {
-    return;
-  }*/
   var item = document.getElementById('tile-container');
-  if (item.innerHTML == last) {
     if (++cnt > 1) {
       dir = 1 - dir;
       cnt = 0;
     }
-  }
-  last = item.innerHTML;
   if (0 === dir) {
     game.move(0);
     game.move(2);
