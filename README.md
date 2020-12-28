@@ -1,7 +1,21 @@
-# 2048
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+# 9007199254740992
+A clone of [9007199254740992](https://www.csie.ntu.edu.tw/~b01902112/9007199254740992/) by James QAQ.
 
-Made just for fun. [Play it here!](http://gabrielecirulli.github.io/2048/)
+Added: Auto Move Strategies
+
+There are 4 auto move modes:
+
+- Corner
+
+- Swing
+
+- Swirl
+
+- Random
+
+Also included: save ability - your progress will be saved
+
+Made just for fun. [Play it here!](https://thereal768.github.io/9007199254740992/)
 
 ### Contributions
 
